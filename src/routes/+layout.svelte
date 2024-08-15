@@ -1,22 +1,12 @@
 <script>
     import { onMount } from "svelte";
     import { goto } from "$app/navigation";
-
-    onMount(async () => {
-        try {
-            await import("htmx.org/dist/htmx.min.js");
-            console.log("htmx loaded successfully");
-        } catch (error) {
-            console.error("Failed to load htmx:", error);
-        }
-    });
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 
 <nav lang="html">
-   
     <div id="sitename" on:click={()=>goto('/')}>
         <div id="name">&lt;slotStore/&gt;</div>
     </div>
