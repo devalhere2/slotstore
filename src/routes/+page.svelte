@@ -18,10 +18,10 @@
 </script>
 
 <style lang="scss">
-    @import '../styles.scss';
+    @import 'src/styles.scss';
     main {
         display: flex;
-        height: calc(100vh - 60px);
+        min-height: calc(100vh - 60px);
         #types {
             min-width: 15%;
             background-color: $types_background;

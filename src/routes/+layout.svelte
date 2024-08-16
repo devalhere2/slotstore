@@ -19,7 +19,7 @@
 <slot />
 
 <style lang="scss">
-    @import '../styles.scss';
+    @import 'src/styles.scss';
     nav {
         height: 60px;
         display: flex;

@@ -1,0 +1,40 @@
+{
+    "Navigation": [
+      "Navbar",
+      "Menu",
+      "Search bar"
+    ],
+    "Content": [
+      "Headers",
+      "Paragraphs",
+      "Images",
+      "Cards"
+    ],
+    "Interactive": [
+      "Buttons",
+      "Links",
+      "Forms",
+      "Input fields"
+    ],
+    "Layout": [
+      "Containers",
+      "Grids"
+    ],
+    "Footer": [
+      "Footer bar"
+    ],
+    "Feedback": [
+      "Alert boxes",
+      "Loading spinners"
+    ],
+    "Media": [
+      "Image galleries",
+      "Video players"
+    ],
+    "Social": [
+      "Share buttons"
+    ],
+    "Branding": [
+      "Logos"
+    ]
+  }
