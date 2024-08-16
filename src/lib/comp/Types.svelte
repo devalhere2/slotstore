@@ -8,5 +8,6 @@
     });
     
 </script>
+
 <Tree types = {types}></Tree>
 

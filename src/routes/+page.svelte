@@ -5,14 +5,14 @@
     <div id="body">
         <Body></Body>
     </div>
-    <div id="own">
-        <Own></Own>
+    <div id="other">
+        <Other></Other>
     </div>
 </main>
 
 <script>
     import  Body  from '$lib/comp/Body.svelte';
-    import  Own  from '$lib/comp/Own.svelte';
+    import  Other  from '$lib/comp/Other.svelte';
     import  Types  from '$lib/comp/Types.svelte';
 
 </script>
@@ -20,18 +20,19 @@
 <style lang="scss">
     @import 'src/styles.scss';
     main {
+        box-sizing: border-box;
         display: flex;
         min-height: calc(100vh - 60px);
         #types {
-            min-width: 15%;
-            background-color: $types_background;
+            min-width: 200px;
+            border-right: 1px solid rgba($primary, 0.1);
         }
         #body {
             flex: 1;
             background-color: aliceblue;
         }   
-        #own {
-            width: 25%;
+        #other {
+            width: 30px;
             background-color: rgba(255, 182, 193, 0.5);
         }
     }

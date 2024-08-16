@@ -80,6 +80,10 @@
     @import "src/styles.scss";
     main {
         margin: 10px;
+        border: 1px solid $primary;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: $types_background;
         font-family: "Courier New", Courier, monospace;
         color: $primary;
         user-select: none;
