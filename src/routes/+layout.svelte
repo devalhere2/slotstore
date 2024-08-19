@@ -11,8 +11,8 @@
         <div id="name">&lt;slotStore/&gt;</div>
     </div>
     <div id="buttons">
+        <div id="contri" on:click={()=>{}}>+ Contribute</div>
         <div id="login" on:click={()=>goto('/login')}>Login</div>
-        <div id="join" on:click={()=>goto('/join')}>Join</div>
     </div>
 </nav>
 
@@ -41,7 +41,7 @@
         #buttons {
             display: flex;
             margin-right: 10%;
-            #login, #join {
+            #login, #contri {
                 margin-left: 10px;
                 padding: 5px 10px;
 
@@ -56,7 +56,7 @@
                     background-color: $secondary;
                 }
             }
-            #join {
+            #contri {
                 color: whitesmoke;
                 border: 1px solid black;
                 border-radius: 5px;

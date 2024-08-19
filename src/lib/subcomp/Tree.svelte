@@ -81,8 +81,9 @@
     main {
         margin: 10px;
         border: 1px solid $primary;
+        min-height: 100px;
         border-radius: 5px;
-        padding: 5px;
+        padding: 5px;;
         background-color: $types_background;
         font-family: "Courier New", Courier, monospace;
         color: $primary;

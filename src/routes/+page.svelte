@@ -29,7 +29,6 @@
         }
         #body {
             flex: 1;
-            background-color: aliceblue;
         }   
         #other {
             width: 30px;

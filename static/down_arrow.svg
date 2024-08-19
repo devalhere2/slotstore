@@ -24,8 +24,8 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="3.9696408"
-     inkscape:cx="41.061649"
-     inkscape:cy="57.93975"
+     inkscape:cx="41.06165"
+     inkscape:cy="57.939751"
      inkscape:window-width="1362"
      inkscape:window-height="729"
      inkscape:window-x="0"
@@ -44,7 +44,7 @@
      id="layer1">
     <path
        id="rect103-3"
-       transform="rotate(-135)"
-       d="m -106.06602,-35.355339 h 70.000003 v 15 h -70.000003 z m 15.000003,0 v 70 h -15.000003 v -70 z" />
+       d="M 50.000002,80.10408 0,30.606602 10.714286,20 60.714287,69.497477 Z M 39.285714,69.497475 89.285713,20 100,30.606604 50.000002,80.10408 Z"
+       style="stroke-width:1.00506" />
   </g>
 </svg>
